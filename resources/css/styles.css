@@ -1,0 +1,150 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+}
+
+body {
+  background-color: black;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%
+}
+
+.logo-container {
+  margin-left: 0px;
+  width: 100px;
+}
+
+.logo {
+  height: 50px;
+  margin: 9.5px 10px;
+}
+
+nav {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 22px;
+}
+
+
+/* Hero */
+
+.hero {
+  background-image: url('../images/mission.jpg');
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 60px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  background-color: black;
+  width: 1200px;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+a, h2, h3, h4, h5, p {
+    opacity: 0.9;
+    color: seashell;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+   font-size: 20px;
+ }
+
+h5 {
+   font-size: 18px;
+ }
+
+ /* Teas */
+
+ .teas {
+   width: 1000px;
+   height: 450px;
+   margin: 200px auto;
+   margin-top: 150px;
+ }
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-image {
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+ }
+
+ /* Locations */
+
+ .locations {
+   border: 1px solid white;
+   height: 500px;
+   width: 1200px;
+   background-image: url('../images/locations.jpg');
+   background-repeat: no-repeat;
+   margin: 0 auto;
+ }
+
+.box-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ .box {
+   background-color: black;
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+
+ /* Footer */
+
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
